@@ -1,17 +1,18 @@
 import discord
-import speak
+import data
 
-intents = discord.Intents.default()
-intents.message_content = True
+d_intents = discord.Intents.default()
+d_intents.message_content = True
 
-client = discord.Client(intents = intents)
+client = discord.Client(intents = d_intents)
 
 ### @event ###
 
 @client.event
 async def on_ready():
 	print(f'{client.user} activated')
-speak.speaking(client)
+data
+data.get_mess(client)
 
 ### $Open RUN Close$ ###
 

@@ -1,7 +1,7 @@
-data_w = {"intents": [
+{"intents": [
     {"tag": "greeting",
      "patterns": ["Hello", "La forme?", "yo", "Salut", "ça roule?"],
-     "responses": ["Salut à toi!", "Hello", "Comment vas tu?", "Salutations!", "Enchanté"],
+     "responses": ["Salut à toi!", "Hello", "Comment vas tu?", "Salutations!", "Enchanté"]
     },
     {"tag": "age",
      "patterns": ["Quel âge as-tu?", "C'est quand ton anniversaire?", "Quand es-tu né?"],
